@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'Yemek_tarifi_detay.dart';
-import 'HomePage.dart';
+import 'package:yemektarifiapp/Signin/Signin.dart';
+import 'Login/LoginPage.dart';
 
 void main() {
   runApp(const MainPage());
@@ -14,9 +14,9 @@ class MainPage extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.deepPurple,
       ),
-      home: HomePage(),
+      home: Login(),
     );
   }
 }
