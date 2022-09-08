@@ -63,6 +63,8 @@ flutter:
   assets:
    - lib/Login/LoginImages/
    - lib/Signin/SignInImages/
+   - lib/MainPage/
+   - lib/MainPage/Card
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
