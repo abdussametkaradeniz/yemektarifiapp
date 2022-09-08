@@ -17,7 +17,7 @@ class _MainPageUserState extends State<MainPageUser> {
       body: SingleChildScrollView(
         child: SafeArea(
           child: Column(
-            children: [
+            children: const [
               //topbar
               Topbar(),
               SizedBox(height: 25),
